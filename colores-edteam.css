@@ -1,0 +1,694 @@
+/*
+  Map structure
+  $map-name : (
+    // -- Css classes will build with this names -- //
+    names : ('name', 'nameTwo'),
+    // -- Color variations -- //
+    colors : (
+      'variation' : hsl(value),
+      'variation' : hsl(value)
+    )
+  );
+*/
+.blue-100 {
+  --color: #e7f4fd;
+  --color-alt: #b7defa;
+}
+
+:root {
+  --blue-100: #e7f4fd;
+}
+
+.blue-200 {
+  --color: #b7defa;
+  --color-alt: #88c8f7;
+}
+
+:root {
+  --blue-200: #b7defa;
+}
+
+.blue-300 {
+  --color: #88c8f7;
+  --color-alt: #58b3f3;
+}
+
+:root {
+  --blue-300: #88c8f7;
+}
+
+.blue-400 {
+  --color: #58b3f3;
+  --color-alt: #1192ee;
+}
+
+:root {
+  --blue-400: #58b3f3;
+}
+
+.blue-500 {
+  --color: #1192ee;
+  --color-alt: #1083d5;
+}
+
+:root {
+  --blue-500: #1192ee;
+}
+
+.blue-600 {
+  --color: #1083d5;
+  --color-alt: #0c66a6;
+}
+
+:root {
+  --blue-600: #1083d5;
+}
+
+.blue-700 {
+  --color: #0c66a6;
+  --color-alt: #094977;
+}
+
+:root {
+  --blue-700: #0c66a6;
+}
+
+.blue-800 {
+  --color: #094977;
+  --color-alt: #052c48;
+}
+
+:root {
+  --blue-800: #094977;
+}
+
+.blue-900 {
+  --color: #052c48;
+  --color-alt: #052c48;
+}
+
+:root {
+  --blue-900: #052c48;
+}
+
+.primary-100 {
+  --color: #e7f4fd;
+  --color-alt: #b7defa;
+}
+
+:root {
+  --primary-100: #e7f4fd;
+}
+
+.primary-200 {
+  --color: #b7defa;
+  --color-alt: #88c8f7;
+}
+
+:root {
+  --primary-200: #b7defa;
+}
+
+.primary-300 {
+  --color: #88c8f7;
+  --color-alt: #58b3f3;
+}
+
+:root {
+  --primary-300: #88c8f7;
+}
+
+.primary-400 {
+  --color: #58b3f3;
+  --color-alt: #1192ee;
+}
+
+:root {
+  --primary-400: #58b3f3;
+}
+
+.primary-500 {
+  --color: #1192ee;
+  --color-alt: #1083d5;
+}
+
+:root {
+  --primary-500: #1192ee;
+}
+
+.primary-600 {
+  --color: #1083d5;
+  --color-alt: #0c66a6;
+}
+
+:root {
+  --primary-600: #1083d5;
+}
+
+.primary-700 {
+  --color: #0c66a6;
+  --color-alt: #094977;
+}
+
+:root {
+  --primary-700: #0c66a6;
+}
+
+.primary-800 {
+  --color: #094977;
+  --color-alt: #052c48;
+}
+
+:root {
+  --primary-800: #094977;
+}
+
+.primary-900 {
+  --color: #052c48;
+  --color-alt: #052c48;
+}
+
+:root {
+  --primary-900: #052c48;
+}
+
+/*
+    example result :
+    .blue-500 {
+      --color     : #1192ee;
+      --color-alt : #1083d5;
+    }
+  */
+.green-100 {
+  --color: #eafbf2;
+  --color-alt: #c0f2d9;
+}
+
+:root {
+  --green-100: #eafbf2;
+}
+
+.green-200 {
+  --color: #c0f2d9;
+  --color-alt: #96e9bf;
+}
+
+:root {
+  --green-200: #c0f2d9;
+}
+
+.green-300 {
+  --color: #96e9bf;
+  --color-alt: #6ce0a6;
+}
+
+:root {
+  --green-300: #96e9bf;
+}
+
+.green-400 {
+  --color: #6ce0a6;
+  --color-alt: #2dd280;
+}
+
+:root {
+  --green-400: #6ce0a6;
+}
+
+.green-500 {
+  --color: #2dd280;
+  --color-alt: #28bd73;
+}
+
+:root {
+  --green-500: #2dd280;
+}
+
+.green-600 {
+  --color: #28bd73;
+  --color-alt: #1f9359;
+}
+
+:root {
+  --green-600: #28bd73;
+}
+
+.green-700 {
+  --color: #1f9359;
+  --color-alt: #166a40;
+}
+
+:root {
+  --green-700: #1f9359;
+}
+
+.green-800 {
+  --color: #166a40;
+  --color-alt: #0d3f26;
+}
+
+:root {
+  --green-800: #166a40;
+}
+
+.green-900 {
+  --color: #0d3f26;
+  --color-alt: #0d3f26;
+}
+
+:root {
+  --green-900: #0d3f26;
+}
+
+/*
+    example result :
+    .blue-500 {
+      --color     : #1192ee;
+      --color-alt : #1083d5;
+    }
+  */
+.accent-100 {
+  --color: #fff8eb;
+  --color-alt: #ffeac7;
+}
+
+:root {
+  --accent-100: #fff8eb;
+}
+
+.accent-200 {
+  --color: #ffeac7;
+  --color-alt: #ffdb9e;
+}
+
+:root {
+  --accent-200: #ffeac7;
+}
+
+.accent-300 {
+  --color: #ffdb9e;
+  --color-alt: #ffce7a;
+}
+
+:root {
+  --accent-300: #ffdb9e;
+}
+
+.accent-400 {
+  --color: #ffce7a;
+  --color-alt: #ffba42;
+}
+
+:root {
+  --accent-400: #ffce7a;
+}
+
+.accent-500 {
+  --color: #ffba42;
+  --color-alt: #e5a638;
+}
+
+:root {
+  --accent-500: #ffba42;
+}
+
+.accent-600 {
+  --color: #e5a638;
+  --color-alt: #b4822d;
+}
+
+:root {
+  --accent-600: #e5a638;
+}
+
+.accent-700 {
+  --color: #b4822d;
+  --color-alt: #7e5c20;
+}
+
+:root {
+  --accent-700: #b4822d;
+}
+
+.accent-800 {
+  --color: #7e5c20;
+  --color-alt: #4e3813;
+}
+
+:root {
+  --accent-800: #7e5c20;
+}
+
+.accent-900 {
+  --color: #4e3813;
+  --color-alt: #4e3813;
+}
+
+:root {
+  --accent-900: #4e3813;
+}
+
+.yellow-100 {
+  --color: #fff8eb;
+  --color-alt: #ffeac7;
+}
+
+:root {
+  --yellow-100: #fff8eb;
+}
+
+.yellow-200 {
+  --color: #ffeac7;
+  --color-alt: #ffdb9e;
+}
+
+:root {
+  --yellow-200: #ffeac7;
+}
+
+.yellow-300 {
+  --color: #ffdb9e;
+  --color-alt: #ffce7a;
+}
+
+:root {
+  --yellow-300: #ffdb9e;
+}
+
+.yellow-400 {
+  --color: #ffce7a;
+  --color-alt: #ffba42;
+}
+
+:root {
+  --yellow-400: #ffce7a;
+}
+
+.yellow-500 {
+  --color: #ffba42;
+  --color-alt: #e5a638;
+}
+
+:root {
+  --yellow-500: #ffba42;
+}
+
+.yellow-600 {
+  --color: #e5a638;
+  --color-alt: #b4822d;
+}
+
+:root {
+  --yellow-600: #e5a638;
+}
+
+.yellow-700 {
+  --color: #b4822d;
+  --color-alt: #7e5c20;
+}
+
+:root {
+  --yellow-700: #b4822d;
+}
+
+.yellow-800 {
+  --color: #7e5c20;
+  --color-alt: #4e3813;
+}
+
+:root {
+  --yellow-800: #7e5c20;
+}
+
+.yellow-900 {
+  --color: #4e3813;
+  --color-alt: #4e3813;
+}
+
+:root {
+  --yellow-900: #4e3813;
+}
+
+/*
+    example result :
+    .blue-500 {
+      --color     : #1192ee;
+      --color-alt : #1083d5;
+    }
+  */
+.red-100 {
+  --color: #fdeded;
+  --color-alt: #f9cdcd;
+}
+
+:root {
+  --red-100: #fdeded;
+}
+
+.red-200 {
+  --color: #f9cdcd;
+  --color-alt: #f5adad;
+}
+
+:root {
+  --red-200: #f9cdcd;
+}
+
+.red-300 {
+  --color: #f5adad;
+  --color-alt: #f18888;
+}
+
+:root {
+  --red-300: #f5adad;
+}
+
+.red-400 {
+  --color: #f18888;
+  --color-alt: #eb5656;
+}
+
+:root {
+  --red-400: #f18888;
+}
+
+.red-500 {
+  --color: #eb5656;
+  --color-alt: #d44e4e;
+}
+
+:root {
+  --red-500: #eb5656;
+}
+
+.red-600 {
+  --color: #d44e4e;
+  --color-alt: #a43d3d;
+}
+
+:root {
+  --red-600: #d44e4e;
+}
+
+.red-700 {
+  --color: #a43d3d;
+  --color-alt: #772c2c;
+}
+
+:root {
+  --red-700: #a43d3d;
+}
+
+.red-800 {
+  --color: #772c2c;
+  --color-alt: #471a1a;
+}
+
+:root {
+  --red-800: #772c2c;
+}
+
+.red-900 {
+  --color: #471a1a;
+  --color-alt: #471a1a;
+}
+
+:root {
+  --red-900: #471a1a;
+}
+
+/*
+    example result :
+    .blue-500 {
+      --color     : #1192ee;
+      --color-alt : #1083d5;
+    }
+  */
+.grey-100 {
+  --color: #fbfbfe;
+  --color-alt: #fcfcfc;
+}
+
+:root {
+  --grey-100: #fbfbfe;
+}
+
+.grey-200 {
+  --color: #fcfcfc;
+  --color-alt: #eff3f5;
+}
+
+:root {
+  --grey-200: #fcfcfc;
+}
+
+.grey-300 {
+  --color: #eff3f5;
+  --color-alt: #c8cdd0;
+}
+
+:root {
+  --grey-300: #eff3f5;
+}
+
+.grey-400 {
+  --color: #c8cdd0;
+  --color-alt: #a0a7ac;
+}
+
+:root {
+  --grey-400: #c8cdd0;
+}
+
+.grey-500 {
+  --color: #a0a7ac;
+  --color-alt: #697477;
+}
+
+:root {
+  --grey-500: #a0a7ac;
+}
+
+.grey-600 {
+  --color: #697477;
+  --color-alt: #2a3b47;
+}
+
+:root {
+  --grey-600: #697477;
+}
+
+.grey-700 {
+  --color: #2a3b47;
+  --color-alt: #22303a;
+}
+
+:root {
+  --grey-700: #2a3b47;
+}
+
+.grey-800 {
+  --color: #22303a;
+  --color-alt: #1a252d;
+}
+
+:root {
+  --grey-800: #22303a;
+}
+
+.grey-900 {
+  --color: #1a252d;
+  --color-alt: #1a252d;
+}
+
+:root {
+  --grey-900: #1a252d;
+}
+
+/*
+    example result :
+    .blue-500 {
+      --color     : #1192ee;
+      --color-alt : #1083d5;
+    }
+  */
+:root {
+  --light-color: var(--grey-300);
+  --border-color: var(--grey-300);
+  --title-color: var(--grey-700);
+  --text-color: var(--grey-600);
+  --text-color-light: var(--grey-500);
+  --text-color-lighter: var(--grey-400);
+  --color-light: var(--light-color);
+  --color-border: var(--border-color);
+  --color-title: var(--title-color);
+  --color-text: var(--text-color);
+  --color-text-light: var(--color-text-light);
+  --color-text-lighter: var(--text-color-lighter);
+  --body-bg: var(--grey-100);
+  --color: var(--blue-500);
+  --color-alt: var(--blue-600);
+  --white-color: #fff;
+}
+
+.white-color,
+.color-white {
+  --color: var(--white-color);
+}
+
+.text-color,
+.color-text {
+  --color: var(--text-color);
+  --color-alt: var(--dark-color);
+}
+
+.text-color-light,
+.color-text-light {
+  --color: var(--text-color-light);
+  --color-alt: var(--text-color);
+}
+
+.text-color-lighter,
+.color-text-lighter {
+  --color: var(--text-color-lighter);
+  --color-alt: var(--text-color-light);
+}
+
+.light-color,
+.color-light {
+  --color: var(--light-color);
+  --color-alt: var(--border-color);
+}
+
+.border-color {
+  --color: var(--border-color);
+}
+
+.body-bg {
+  --color: var(--body-bg);
+}
+
+.color {
+  color: var(--color);
+}
+
+.background {
+  background-color: var(--color);
+}
+
+.fill {
+  fill: var(--color);
+}
+
+.border {
+  --border-color: var(--color);
+}
+
+.hover-bg:hover {
+  background-color: var(--color-alt);
+}
+
+.hover-text:hover {
+  color: var(--color-alt);
+}
+/*# sourceMappingURL=colores-edteam.css.map */

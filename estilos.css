@@ -1,0 +1,92 @@
+
+/* Fuente para Titulos */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@600;700;800;900&display=swap');
+/* Fuente para Titulos */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800;900&display=swap');
+/* Fuente para contenidos */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+:root {
+    --body-bg-100: #fbfbfe;
+    --title-color-grey: #575E66;
+    --p-color-grey: #575E66;
+    --color-red: red;
+    --grey-color: #828282;
+    --grey-600: hsl(193, 6, 44);
+
+    --h1-font-size: 39px;
+    --h2-font-size: 33px;
+    --h3-font-size: 27px;
+    --h4-font-size: 16px;
+
+    --font-title-opensans: 'Open Sans', sans-serif;
+    --font-title-raleway: 'Raleway', sans-serif;
+    --font-texto: 'Lato', sans-serif;
+    --p-font-size: 17px;
+    --sm-font-size: 14px;
+}
+/* Efecto smooth al Scroll */
+html { 
+	scroll-behavior: smooth;
+}
+body {
+    background: var(--body-bg-100);
+}
+
+/* -- Estilos base de Titulos -- */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color-grey);
+    letter-spacing: 0.015em;
+    line-height: 1.3;
+}
+
+/* -- Estilos base Texto */
+p {
+    font-family:  var(--grey-600);
+    font-weight: 400;
+    letter-spacing: 0.015em;
+    color: var(--p-color-grey);
+    font-size: var(--p-font-size);
+    line-height: 1.6;
+}
+a {
+    color: var(--p-color-grey);
+}
+ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* Otro estilos sin importancia */
+h2, .h2{
+    font-size: var(--h2-font-size);
+    font-family: var(--font-title-raleway);
+    font-weight: 800;
+}
+h4, .h4{
+    font-size: var(--h4-font-size);
+    font-family: var(--font-title-raleway);
+    font-weight: 700;
+}
+.small-p {
+    color: var(--p-color-grey);
+    font-size: var(--sm-font-size);
+    font-family: var(--font-title-opensans);
+}
+h4 {
+    font-size: var(--h4-font-size);
+}
+.list-group .list-group-item {
+    background: var(--body-bg-100);
+}
+
+ul li:hover a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--color-red);
+}
+
+.grey-color {
+    color: var(--grey-color);
+}
